@@ -2535,7 +2535,17 @@ img.header-logo {
     margin-top: 10px;
     position: relative;
     left: -54%;
-    top: 100px;
+    top: 104px;
+}
+
+img.header-logo.header-logo-top {
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: -54%;
+    top: 80px;
 }
 
 p.header-content-p {
@@ -2743,6 +2753,10 @@ img.footer-ico.footer-icon-sm-1 {
     width: 108px;
 }
 
+img.footer-ico.footer-icon-sm-2 {
+    width: 128px;
+}
+
 p.footer-p-a{
     color: #adadad !important;
     font-size: 14px !important;
@@ -2830,6 +2844,10 @@ p.footer-p-a > a:hover {
 
 #navbar > p > a:hover{
     color: rgb(238, 87, 87) !important;
+}
+
+#navbar > p > a{
+    text-decoration: underline;
 }
 
 #navbar {
